@@ -16,7 +16,7 @@ const SideBar: React.FC = () => {
         <Link href="/" className="logo">
           <Image
             src="/images/me.jpg"
-            alt="Michael D'Angelo"
+            alt="Yiqi Huang"
             width={200}
             height={200}
             priority

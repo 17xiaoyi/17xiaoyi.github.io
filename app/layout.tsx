@@ -22,28 +22,28 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: "Michael D'Angelo",
-    template: "%s | Michael D'Angelo",
+    default: "Yiqi Huang",
+    template: "%s | Yiqi Huang",
   },
   description:
     'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
   keywords: [
-    "Michael D'Angelo",
+    "Yiqi Huang",
     'LLM security',
     'machine learning',
     'CTO',
     'startup founder',
     'YC',
   ],
-  authors: [{ name: "Michael D'Angelo" }],
-  creator: "Michael D'Angelo",
+  authors: [{ name: "Yiqi Huang" }],
+  creator: "Yiqi Huang",
   metadataBase: new URL('https://mldangelo.com'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://mldangelo.com',
-    siteName: "Michael D'Angelo",
-    title: "Michael D'Angelo",
+    siteName: "Yiqi Huang",
+    title: "Yiqi Huang",
     description:
       'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
     images: [
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
         url: '/images/me.jpg',
         width: 1200,
         height: 630,
-        alt: "Michael D'Angelo",
+        alt: "Yiqi Huang",
       },
     ],
   },
