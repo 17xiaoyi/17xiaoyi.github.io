@@ -3,6 +3,8 @@ import Link from 'next/link';
 import React from 'react';
 
 import PageWrapper from './components/PageWrapper';
+import Markdown from 'markdown-to-jsx';
+import { aboutMarkdown } from '@/data/about';
 
 export const metadata: Metadata = {
   description:
@@ -16,17 +18,18 @@ export default function HomePage() {
         <header>
           <div className="title">
             <h2>
-              <Link href="/about">About this site</Link>
+              {/* <Link href="/about">About this site</Link> */}
+              About me
             </h2>
-            <p>
+            {/* <p>
               A beautiful, responsive, statically-generated, react application
               written with modern TypeScript.
-            </p>
+            </p> */}
           </div>
         </header>
-        <p>
+        {/* <p>
           {' '}
-          Welcome to my website. Please feel free to read more{' '}
+          Please feel free to read more{' '}
           <Link href="/about">about me</Link>, or you can check out my{' '}
           <Link href="/resume">resume</Link>,{' '}
           <Link href="/projects">projects</Link>, view{' '}
@@ -37,7 +40,8 @@ export default function HomePage() {
           {' '}
           Source available{' '}
           <a href="https://github.com/mldangelo/personal-site">here</a>.
-        </p>
+        </p> */}
+        <Markdown>{aboutMarkdown}</Markdown>
       </article>
     </PageWrapper>
   );
