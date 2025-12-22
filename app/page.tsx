@@ -23,7 +23,7 @@ export default function HomePage() {
             {/* About me */}
             {/* </h2> */}
             <p style={{ textTransform: 'none', fontWeight: 'bold' }}>
-              Hi! I am a fourth-year Ph.D student at MIT, advised by Professor <a href="https://math.mit.edu/directory/profile.html?pid=50" target="_blank" rel="noopener noreferrer">Tobias Holck Colding</a>.
+              Hi! I am a fourth-year Ph.D. student at MIT, advised by Professor <a href="https://math.mit.edu/directory/profile.html?pid=50" target="_blank" rel="noopener noreferrer">Tobias Holck Colding</a>.
             </p>
             {/* <Markdown>{introMarkdown}</Markdown> */}
           </div>
