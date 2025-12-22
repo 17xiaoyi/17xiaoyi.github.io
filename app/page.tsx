@@ -5,6 +5,7 @@ import React from 'react';
 import PageWrapper from './components/PageWrapper';
 import Markdown from 'markdown-to-jsx';
 import { aboutMarkdown } from '@/data/about';
+import { introMarkdown } from '@/data/intro';
 
 export const metadata: Metadata = {
   description:
@@ -17,14 +18,14 @@ export default function HomePage() {
       <article className="post" id="index">
         <header>
           <div className="title">
-            <h2>
-              {/* <Link href="/about">About this site</Link> */}
-              About me
-            </h2>
-            {/* <p>
-              A beautiful, responsive, statically-generated, react application
-              written with modern TypeScript.
-            </p> */}
+            {/* <h2> */}
+            {/* <Link href="/about">About this site</Link> */}
+            {/* About me */}
+            {/* </h2> */}
+            <p style={{ textTransform: 'none', fontWeight: 'bold' }}>
+              Hi! I am a fourth-year Ph.D student at MIT, advised by Professor <a href="https://math.mit.edu/directory/profile.html?pid=50" target="_blank" rel="noopener noreferrer">Tobias Holck Colding</a>.
+            </p>
+            {/* <Markdown>{introMarkdown}</Markdown> */}
           </div>
         </header>
         {/* <p>
@@ -41,8 +42,18 @@ export default function HomePage() {
           Source available{' '}
           <a href="https://github.com/mldangelo/personal-site">here</a>.
         </p> */}
-        <Markdown>{aboutMarkdown}</Markdown>
+        <Markdown options={{
+          overrides: {
+            a: {
+              component: 'a',
+              props: {
+                target: '_blank',
+                rel: 'noopener noreferrer'
+              }
+            }
+          }
+        }}>{aboutMarkdown}</Markdown>
       </article>
-    </PageWrapper>
+    </PageWrapper >
   );
 }

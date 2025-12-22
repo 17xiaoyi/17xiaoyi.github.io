@@ -6,11 +6,13 @@ import { usePathname } from 'next/navigation';
 import React from 'react';
 
 import ContactIcons from '../Contact/ContactIcons';
+import PageWrapper from '../../../app/components/PageWrapper';
 
 const SideBar: React.FC = () => {
   const pathname = usePathname();
 
   return (
+    // <PageWrapper>
     <section id="sidebar">
       <section id="intro">
         <Link href="/" className="logo">
@@ -23,46 +25,53 @@ const SideBar: React.FC = () => {
           />
         </Link>
         <header>
-          <h2>Michael D&apos;Angelo</h2>
-          <p>
+          <h2>Yiqi Huang</h2>
+          {/* <p>
             <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          </p> */}
+          <p style={{ textTransform: 'none' }}>
+            yiqih777[at]mit[dot]edu<br />
+            <a href="https://scholar.google.com/citations?user=pCsTf2cAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener noreferrer">Google Scholar</a>
           </p>
         </header>
+        <p style={{ fontFamily: 'Arial, sans-serif', fontSize: '14px' }}>
+          Department of Mathematics<br />
+          Massachusetts Institute of Technology<br />
+          77 Massachusetts Avenue, Cambridge
+        </p>
       </section>
 
-      <section className="blurb">
-        <h2>About</h2>
-        <p>
-          Hi, I&apos;m Michael. I am a{' '}
-          <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-          alumnus, and the co-founder and CTO of{' '}
-          <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I was VP of
-          Engineering at <a href="https://usesmileid.com">SmileID</a>,
-          co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-          co-founded <a href="https://matroid.com">Matroid</a>.
-        </p>
-        <ul className="actions">
-          <li>
-            {pathname && !pathname.includes('/resume') ? (
-              <Link href="/resume" className="button">
-                Learn More
-              </Link>
-            ) : (
-              <Link href="/about" className="button">
-                About Me
-              </Link>
-            )}
-          </li>
-        </ul>
-      </section>
+      {/* <section className="blurb"> */}
+      {/* <h2>About</h2> */}
+      {/* <p style={{ fontFamily: 'Arial, sans-serif' }}>
+          Department of Mathematics<br />
+          Massachusetts Institute of Technology<br />
+          77 Massachusetts Avenue, Cambridge
+        </p> */}
+      {/* <ul className="actions">
+            <li>
+              {pathname && !pathname.includes('/resume') ? (
+                <Link href="/resume" className="button">
+                  Learn More
+                </Link>
+              ) : (
+                <Link href="/about" className="button">
+                  About Me
+                </Link>
+              )}
+            </li>
+          </ul> */}
+      {/* </section> */}
 
       <section id="footer">
-        <ContactIcons />
+        {/* <ContactIcons /> */}
         <p className="copyright">
-          &copy; Michael D&apos;Angelo <Link href="/">mldangelo.com</Link>.
+          {/* &copy; Michael D&apos;Angelo <a href="https://mldangelo.com/" target="_blank" rel="noopener noreferrer">mldangelo.com</a>. */}
+          Source code of this website is available <a href="https://github.com/mldangelo/personal-site" target="_blank" rel="noopener noreferrer">here</a>.
         </p>
       </section>
     </section>
+    // </PageWrapper>
   );
 };
 
