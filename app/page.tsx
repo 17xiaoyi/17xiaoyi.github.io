@@ -23,7 +23,8 @@ export default function HomePage() {
             {/* About me */}
             {/* </h2> */}
             <p style={{ textTransform: 'none', fontWeight: 'bold' }}>
-              Hi! I am a fourth-year Ph.D. student in Mathematics at MIT, advised by Professor <a href="https://math.mit.edu/directory/profile.html?pid=50" target="_blank" rel="noopener noreferrer">Tobias Holck Colding</a>. My research interests broadly lie in Differential Geometry and Geometric Analysis. I also work closely with Professor <a href="https://person.zju.edu.cn/wsjiang" target="_blank" rel="noopener noreferrer">Wenshuai Jiang</a> and Professor <a href="https://tristanozuch.github.io/" target="_blank" rel="noopener noreferrer">Tristan Ozuch</a>. 
+              Hi! I am a fourth-year Ph.D. student in Mathematics at MIT, advised by Professor <a href="https://math.mit.edu/directory/profile.html?pid=50" target="_blank" rel="noopener noreferrer">Tobias Holck Colding</a>. My research interests broadly lie in Differential Geometry and Geometric Analysis. 
+              %I also work closely with Professor <a href="https://person.zju.edu.cn/wsjiang" target="_blank" rel="noopener noreferrer">Wenshuai Jiang</a> and Professor <a href="https://tristanozuch.github.io/" target="_blank" rel="noopener noreferrer">Tristan Ozuch</a>. 
             </p>
             {/* <Markdown>{introMarkdown}</Markdown> */}
           </div>
