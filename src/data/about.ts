@@ -9,7 +9,7 @@ export const aboutMarkdown = `# Research
 
 # Selected honours
 
-- Simons Dissertation Fellowship, 2025
+- Simons Dissertation Fellowship, Simons Foundation, 2025
 - Croucher Scholarship, Croucher Foundation, 2024
 - Mathworks Fellowship, MIT, 2023
 - Peterson Fellowship, MIT, 2022

@@ -34,7 +34,7 @@ const SideBar: React.FC = () => {
             <a href="https://scholar.google.com/citations?user=pCsTf2cAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener noreferrer">Google Scholar</a>
           </p>
         </header>
-        <p style={{ fontFamily: 'Arial, sans-serif', fontSize: '14px' }}>
+        <p style={{ fontFamily: 'Verdana, Geneva, sans-serif', fontSize: '12px', fontWeight: 'lighter' }}>
           Department of Mathematics<br />
           Massachusetts Institute of Technology<br />
           77 Massachusetts Avenue, Cambridge
