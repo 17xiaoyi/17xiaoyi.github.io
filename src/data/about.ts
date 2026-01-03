@@ -6,7 +6,7 @@ export const aboutMarkdown = `# Research
 - *The nodal sets of solutions to parabolic equations* (with [W. Jiang](https://person.zju.edu.cn/en/wsjiang)), [arXiv:2406.05877](https://arxiv.org/abs/2406.05877).
 - *Volume estimates on singular sets and critical sets for elliptic equations with Hölder coefficients* (with [W. Jiang](https://person.zju.edu.cn/en/wsjiang)), accepted by ***Amer. J. Math.***, [arXiv:2309.08089](https://arxiv.org/abs/2309.08089).
 - *Scalar curvature lower bound under integral convergence* (with [M.-C. Lee](https://sites.google.com/view/mcleemath/home)), ***[Math. Z.](https://link.springer.com/article/10.1007/s00209-022-03155-9)***, 303 (2023), no. 1, Paper No. 2. 53, [arXiv:2111.05079](https://arxiv.org/abs/2111.05079).
-- *Spectral analysis beyond ℓ² on Sierpinski Lattices* (with [S. Cao](https://sites.google.com/view/shipingcao), [R. Strichartz](https://en.wikipedia.org/wiki/Robert_Strichartz), [H. Qiu](https://math.nju.edu.cn/~huaqiu/) and [X. Zhu](https://scholar.google.com/citations?user=IsTgOccAAAAJ&hl=en)), [***J Fourier Anal Appl***](https://link.springer.com/article/10.1007/s00041-021-09853-y) 27, 55 (2021), [arXiv:1910.01771](https://arxiv.org/abs/1910.01771).
+- *Spectral analysis beyond ℓ² on Sierpinski Lattices* (with [S. Cao](https://sites.google.com/view/shipingcao), [R. Strichartz](https://en.wikipedia.org/wiki/Robert_Strichartz), [H. Qiu](https://math.nju.edu.cn/~huaqiu/) and [X. Zhu](https://scholar.google.com/citations?user=IsTgOccAAAAJ&hl=en)), [***J. Fourier Anal. Appl.***](https://link.springer.com/article/10.1007/s00041-021-09853-y) 27 (2021), no. 3, Paper No. 55, [arXiv:1910.01771](https://arxiv.org/abs/1910.01771).
 
 # Selected honours
 
