@@ -1,5 +1,7 @@
 export const aboutMarkdown = `# Research
 
+- *Optimal regularity for the arrival time equation* (with [J. Zhu](https://sites.google.com/view/jingzezhu/home/)), [arXiv:2609.31610](https://arxiv.org/abs/2609.31610).
+- *General regularity obstructions for the arrival time equation* (with [J. Zhu](https://sites.google.com/view/jingzezhu/home/)), [arXiv:2609.31599](https://arxiv.org/abs/2609.31599).
 - *Regularity of Einstein 5-manifolds via 4-dimensional gap theorems* (with [T. Ozuch](https://tristanozuch.github.io/)), [arXiv:2512.21317](https://arxiv.org/abs/2512.21317).
 - *On the rate of convergence of cylindrical singularity in mean curvature flow* (with [X. Zhao](https://sites.google.com/view/xinrui-zhao/home?authuser=0)), [arXiv:2510.23499](https://arxiv.org/abs/2510.23499).
 - *The bounded diameter conjecture and sharp geometric estimates for mean curvature flow* (with [W. Jiang](https://person.zju.edu.cn/en/wsjiang)), [arXiv:2510.17060](https://arxiv.org/abs/2510.17060).
