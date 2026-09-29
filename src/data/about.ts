@@ -20,4 +20,4 @@ export const aboutMarkdown = `# Research
 - Frank L. Peterson Fellowship, MIT, 2022
 - Best Teaching Assistant Award, CUHK, 2022
 - Q.W. Lee Scholarship, CUHK, 2020
-;
+`;
